@@ -1,0 +1,5 @@
+        /* Link to an External Style Sheet - The link Element */
+        .link {
+            text-decoration: none;
+            color: green;
+        }

@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Topics</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Style HTML Elements Using Embedded Styles - The style Element */
+        .htmlStyle h1 {
+            color: blue;
+        }
+
+        /* Link to an External Style Sheet - The link Element */
+        link {
+            text-decoration: none;
+            color: green;
+        }
+    </style>
+    <!-- Add your CSS links or styles here -->
+</head>
+<body>
+    <header>
+        <h1>HTML Topics</h1>
+    </header>
+
+    <!-- Table of Contents -->
+    <section>
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#html-text">HTML Text</a></li>
+            <li><a href="#html-links">HTML Links</a></li>
+            <li><a href="#html-images">HTML Images</a></li>
+            <li><a href="#html-tables">HTML Tables</a></li>
+            <li><a href="#html-lists">HTML Lists</a></li>
+            <li><a href="#html-forms">HTML Forms</a></li>
+            <li><a href="#html-styles">HTML Styles</a></li>
+            <li><a href="#html-iframe">HTML iFrame</a></li>
+            <li><a href="#html5-new-input-types">HTML5 New Input Types</a></li>
+            <li><a href="#html5-audio">HTML5 Audio</a></li>
+            <li><a href="#html5-video">HTML5 Video</a></li>
+        </ul>
+    </section>
+
+    <!-- HTML Text -->
+    <header id="html-text">
+        <h1>HTML Text Examples</h1>
+    </header>
+
+    <!-- Headings - h1 to h6 -->
+    <section>
+        <h2>Headings - h1 to h6</h2>
+        <h1>This is a Heading 1</h1>
+        <h2>This is a Heading 2</h2>
+        <h3>This is a Heading 3</h3>
+        <h4>This is a Heading 4</h4>
+        <h5>This is a Heading 5</h5>
+        <h6>This is a Heading 6</h6>
+    </section>
+
+    <!-- Paragraph and Line Breaks -->
+    <section>
+        <h2>Paragraph and Line Breaks</h2>
+        <p>This is a paragraph. It contains some text.</p>
+        <p>This is another paragraph. It contains more text.</p>
+        <p>This is a line<br>break.</p>
+    </section>
+
+    <!-- Text Formatting -->
+    <section>
+        <h2>Text Formatting</h2>
+        <p><em>Emphasized text</em> and <strong>strong text</strong> can be formatted.</p>
+    </section>
+
+    <!-- Preformatted Text (Preserve Line Breaks and Spaces) -->
+    <section>
+        <h2>Preformatted Text</h2>
+        <pre>
+            This is preformatted text.
+            Line breaks and spaces are preserved.
+        </pre>
+    </section>
+
+    <!-- Sub and Superscript Text -->
+    <section>
+        <h2>Sub and Superscript Text</h2>
+        <p>This is <sub>subscript</sub> text.</p>
+        <p>This is <sup>superscript</sup> text.</p>
+    </section>
+
+    <!-- Long and Short Quotations -->
+    <section>
+        <h2>Quotations</h2>
+        <blockquote>This is a long quotation that spans multiple lines. It should be indented.</blockquote>
+        <q>This is a short inline quotation.</q>
+    </section>
+
+    <!-- Abbreviations and Acronyms -->
+    <section>
+        <h2>Abbreviations and Acronyms</h2>
+        <p><abbr title="World Health Organization">WHO</abbr> is an important organization.</p>
+        <p><acronym title="As Soon As Possible">ASAP</acronym> is often used in emails.</p>
+    </section>
+
+    <!-- Marking Deleted and Inserted Text -->
+    <section>
+        <h2>Marking Deleted and Inserted Text</h2>
+        <p>This is <del>deleted</del> text.</p>
+        <p>This is <ins>inserted</ins> text.</p>
+    </section>
+
+    <!-- Setting Text Direction of an Element -->
+    <section>
+        <h2>Text Direction</h2>
+        <p dir="rtl">This text is right-to-left.</p>
+        <p dir="ltr">This text is left-to-right (default).</p>
+    </section>
+
+    <!-- Insert Contact Information -->
+    <section>
+        <h2>Contact Information</h2>
+        <address>
+            <p>Contact us at: <a href="mailto:contact@example.com">contact@example.com</a></p>
+        </address>
+    </section>
+
+    <!-- Inserting Comments -->
+    <section>
+        <h2>Comments</h2>
+        <!-- This is a comment. Comments are not visible in the browser. -->
+    </section>
+
+    <!-- Inserting Horizontal Lines -->
+    <section>
+        <h2>Horizontal Lines</h2>
+        <hr>
+    </section>
+
+    <!-- Computer Output Tags -->
+    <section>
+        <h2>Computer Output Tags</h2>
+        <p><code>This is computer code.</code></p>
+        <p><kbd>Press Ctrl + C</kbd></p>
+        <p><var>x = 5;</var></p>
+    </section>
+
+
+
+    <!-- HTML Links -->
+    <header id="html-links">
+        <h1>HTML Link Examples</h1>
+    </header>
+
+    <!-- Create Hyperlink -->
+    <section>
+        <h2>Create Hyperlink</h2>
+        <a href="https://www.example.com">Visit Example.com</a>
+    </section>
+
+    <!-- Using Image as a Link -->
+    <section>
+        <h2>Using Image as a Link</h2>
+        <a href="https://www.example.com">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Meme_Man_on_transparent_background.webp/316px-Meme_Man_on_transparent_background.webp.png" alt="Description of the image">
+        </a>
+    </section>
+
+    <!-- Open Link in a New Browser Window -->
+    <section>
+        <h2>Open Link in a New Browser Window</h2>
+        <a href="https://www.example.com" target="_blank">Open in New Window</a>
+    </section>
+
+    <!-- Navigate Inside Page - Jump Link -->
+    <section>
+        <h2>Navigate Inside Page - Jump Link</h2>
+        <p><a href="#section2">Jump to Section 2</a></p>
+    </section>
+
+    <!-- Move Outside of an iFrame -->
+    <section>
+        <h2>Move Outside of an iFrame</h2>
+        <p><a href="https://www.example.com" target="_top">Exit iFrame and go to Example.com</a></p>
+    </section>
+
+    <!-- Creating a Mailto Link - A Link that Sends an Email -->
+    <section>
+        <h2>Creating a Mailto Link</h2>
+        <a href="mailto:contact@example.com">Send an email to Contact</a>
+    </section>
+
+    <!-- Jump to Section 2 (for the Jump Link example) -->
+    <section id="section2">
+        <h2>Section 2</h2>
+        <p>This is Section 2. <a href="#top">Go back to the top</a>.</p>
+    </section>
+
+
+    <!-- HTML Images -->
+    <header id="html-images">
+        <h1>HTML Image Examples</h1>
+    </header>
+
+    <!-- Setting Width and Height of Images -->
+    <section>
+        <h2>Setting Width and Height of Images</h2>
+        <img src="https://media.istockphoto.com/id/1358773518/vector/black-thug-life-meme-glasses-in-pixel-art-style.jpg?s=612x612&w=0&k=20&c=93g1fyCWjMZQ1-f4WKgTC47k7xZhQXW_M_MJ2xo6IzY=" alt="Description of the image" width="200" height="150">
+    </section>
+
+    <!-- Aligning Images -->
+    <section>
+        <h2>Aligning Images</h2>
+        <img src="https://media.istockphoto.com/id/1358773518/vector/black-thug-life-meme-glasses-in-pixel-art-style.jpg?s=612x612&w=0&k=20&c=93g1fyCWjMZQ1-f4WKgTC47k7xZhQXW_M_MJ2xo6IzY=" alt="Description of the image" style="float: left;">
+    </section>
+
+    <!-- Make a Hyperlink of an Image -->
+    <section>
+        <h2>Make a Hyperlink of an Image</h2>
+        <a href="https://www.example.com">
+            <img src="https://media.istockphoto.com/id/1358773518/vector/black-thug-life-meme-glasses-in-pixel-art-style.jpg?s=612x612&w=0&k=20&c=93g1fyCWjMZQ1-f4WKgTC47k7xZhQXW_M_MJ2xo6IzY=" alt="Description of the image">
+        </a>
+    </section>
+
+    <!-- Creating an Image Map - An Image with Clickable Regions -->
+    <section>
+        <h2>Creating an Image Map</h2>
+        <img src="https://media.istockphoto.com/id/1358773518/vector/black-thug-life-meme-glasses-in-pixel-art-style.jpg?s=612x612&w=0&k=20&c=93g1fyCWjMZQ1-f4WKgTC47k7xZhQXW_M_MJ2xo6IzY=" alt="Clickable map of the USA" usemap="#usamap">
+        <map name="usamap">
+            <area shape="rect" coords="100,100,200,200" href="newyork.html" alt="New York">
+            <area shape="rect" coords="250,150,350,250" href="losangeles.html" alt="Los Angeles">
+            <!-- Add more clickable regions here -->
+        </map>
+    </section>
+
+    <!-- HTML Tables -->
+    <header id="html-tables">
+        <h1>HTML Table Examples</h1>
+    </header>
+
+    <!-- Making a Simple Table - The Most Basic Form of a Table -->
+    <section>
+        <h2>Making a Simple Table</h2>
+        <table>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Setting the Dimension of a Table -->
+    <section>
+        <h2>Setting the Dimension of a Table</h2>
+        <table width="300" height="200">
+            <!-- Table content here -->
+        </table>
+    </section>
+
+    <!-- Specify the Table Caption -->
+    <section>
+        <h2>Specify the Table Caption</h2>
+        <table>
+            <caption>Monthly Expenses</caption>
+            <!-- Table content here -->
+        </table>
+    </section>
+
+    <!-- Tables with Borders - Adding the Default Table Borders -->
+    <section>
+        <h2>Tables with Borders</h2>
+        <table border="1">
+            <!-- Table content here -->
+            <tr>
+                <td >This cell spans two rows</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Sets the Padding of Table Cells - The cellpadding Attribute -->
+    <section>
+        <h2>Sets the Padding of Table Cells</h2>
+        <table cellpadding="10" border="1">
+            <!-- Table content here -->
+            <tr>
+                <td>This cell spans two rows</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Sets the Distance Between Table Cells - The cellspacing Attribute -->
+    <section>
+        <h2>Sets the Distance Between Table Cells</h2>
+        <table cellspacing="5" border="1">
+            <!-- Table content here -->
+            <tr>
+                <td>This cell spans two rows</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Table Cells That Span More Than One Row/Column - The rowspan/colspan Attribute -->
+    <section>
+        <h2>Table Cells That Span More Than One Row/Column</h2>
+        <table border="1">
+            <tr>
+                <td rowspan="2">This cell spans two rows</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Column Groups - The col and colgroup Elements -->
+    <section>
+        <h2>Column Groups</h2>
+        <table border="1">
+            <colgroup>
+                <col style="background-color: lightgray;">
+                <col>
+            </colgroup>
+            <tr>
+                <td>Column 1</td>
+                <td>Column 2</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- HTML Lists -->
+    <header ID="html-lists">
+        <h1>HTML List Examples</h1>
+    </header>
+
+    <!-- Creating an Unordered List -->
+    <section>
+        <h2>Creating an Unordered List</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </section>
+
+    <!-- Creating an Ordered List -->
+    <section>
+        <h2>Creating an Ordered List</h2>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+    </section>
+
+    <!-- Creating a Definition List -->
+    <section>
+        <h2>Creating a Definition List</h2>
+        <dl>
+            <dt>Term 1</dt>
+            <dd>Definition 1</dd>
+            <dt>Term 2</dt>
+            <dd>Definition 2</dd>
+        </dl>
+    </section>
+
+    <!-- Creating a Nested List - Single Level -->
+    <section>
+        <h2>Creating a Nested List - Single Level</h2>
+        <ul>
+            <li>Main Item 1</li>
+            <li>Main Item 2
+                <ul>
+                    <li>Nested Item 1</li>
+                    <li>Nested Item 2</li>
+                </ul>
+            </li>
+            <li>Main Item 3</li>
+        </ul>
+    </section>
+
+    <!-- Creating a Nested List - Multi Level -->
+    <section>
+        <h2>Creating a Nested List - Multi Level</h2>
+        <ul>
+            <li>Main Item 1
+                <ul>
+                    <li>Sub Item 1
+                        <ul>
+                            <li>Sub-sub Item 1</li>
+                            <li>Sub-sub Item 2</li>
+                        </ul>
+                    </li>
+                    <li>Sub Item 2</li>
+                </ul>
+            </li>
+            <li>Main Item 2</li>
+        </ul>
+    </section>
+
+    <!-- HTML Forms -->
+    <section id="html-forms">
+        <header>
+            <h1>HTML Form Examples</h1>
+        </header>
+    
+        <!-- Creating Text Input Fields -->
+        <section>
+            <h3>Creating Text Input Fields</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </form>
+        </section>
+    
+        <!-- Creating Password Input Fields -->
+        <section>
+            <h3>Creating Password Input Fields</h3>
+            <form>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </form>
+        </section>
+    
+        <!-- Creating HTML5 New Input Fields -->
+        <section>
+            <h3>Creating HTML5 New Input Fields</h3>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </form>
+        </section>
+    
+        <!-- Checkboxes and Radio Buttons -->
+        <section>
+            <h3>Checkboxes and Radio Buttons</h3>
+            <form>
+                <input type="checkbox" id="check1" name="check1" value="option1">
+                <label for="check1">Option 1</label>
+                <input type="checkbox" id="check2" name="check2" value="option2">
+                <label for="check2">Option 2</label>
+                <br>
+                <input type="radio" id="radio1" name="radio" value="radio1">
+                <label for="radio1">Radio 1</label>
+                <input type="radio" id="radio2" name="radio" value="radio2">
+                <label for="radio2">Radio 2</label>
+            </form>
+        </section>
+    
+        <!-- Select Boxes - A Drop-down List -->
+        <section>
+            <h3>Select Boxes - A Drop-down List</h3>
+            <form>
+                <label for="city">Select a city:</label>
+                <select id="city" name="city">
+                    <option value="newyork">New York</option>
+                    <option value="losangeles">Los Angeles</option>
+                    <option value="chicago">Chicago</option>
+                </select>
+            </form>
+        </section>
+    
+        <!-- Select Box with a Pre-selected Value -->
+        <section>
+            <h3>Select Box with a Pre-selected Value</h3>
+            <form>
+                <label for="fruit">Select your favorite fruit:</label>
+                <select id="fruit" name="fruit">
+                    <option value="apple">Apple</option>
+                    <option value="banana" selected>Banana</option>
+                    <option value="cherry">Cherry</option>
+                </select>
+            </form>
+        </section>
+    
+        <!-- Grouping of Options Inside a Select Box -->
+        <section>
+            <h3>Grouping of Options Inside a Select Box</h3>
+            <form>
+                <label for="cars">Select a car:</label>
+                <select id="cars" name="cars">
+                    <optgroup label="Domestic">
+                        <option value="ford">Ford</option>
+                        <option value="chevrolet">Chevrolet</option>
+                    </optgroup>
+                    <optgroup label="Imported">
+                        <option value="honda">Honda</option>
+                        <option value="toyota">Toyota</option>
+                    </optgroup>
+                </select>
+            </form>
+        </section>
+    
+        <!-- Enable Multiple Selection Inside a Select Box -->
+        <section>
+            <h3>Enable Multiple Selection Inside a Select Box</h3>
+            <form>
+                <label for="fruits" multiple>Select your favorite fruits:</label>
+                <select id="fruits" name="fruits" multiple>
+                    <option value="apple">Apple</option>
+                    <option value="banana">Banana</option>
+                    <option value="cherry">Cherry</option>
+                    <option value="grape">Grape</option>
+                </select>
+            </form>
+        </section>
+    
+        <!-- Textarea - A Multi-line Text Input Field -->
+        <section>
+            <h3>Textarea - A Multi-line Text Input Field</h3>
+            <form>
+                <label for="message">Write your message:</label>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            </form>
+        </section>
+    
+        <!-- Creating Buttons -->
+        <section>
+            <h3>Creating Buttons</h3>
+            <form>
+                <button type="button">Click Me</button>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    
+        <!-- File Select Field -->
+        <section>
+            <h3>File Select Field</h3>
+            <form>
+                <label for="file">Choose a file:</label>
+                <input type="file" id="file" name="file">
+            </form>
+        </section>
+    
+        <!-- Grouping Similar Form Fields -->
+        <section>
+            <h3>Grouping Similar Form Fields</h3>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                </fieldset>
+            </form>
+        </section>
+    
+        <!-- Submit or Reset a Form - The Use of Submit and Reset Button -->
+        <section>
+            <h3>Submit or Reset a Form</h3>
+            <form>
+                <!-- Form fields here -->
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </section>
+
+    <!-- HTML Styles -->
+    <section id="html-styles">
+        <header>
+            <!-- Style HTML Elements Using Inline Styles - The style Attribute -->
+            <h1 style="color: red;">Styled Heading 1</h1>
+        </header>
+    
+        <!-- Style HTML Elements Using Embedded Styles - The style Element -->
+        <section>
+            <h2>Style HTML Elements Using Embedded Styles</h2>
+            <p style="font-size: 18px;">This paragraph has an embedded style.</p>
+        </section>
+    
+        <!-- Link to an External Style Sheet - The link Element -->
+        <section>
+            <h2>Link to an External Style Sheet</h2>
+            <a href="https://www.example.com" class="external-link">Visit Example.com</a>
+        </section>
+    
+        <!-- Learn More About Styling of HTML Elements -->
+        <section class="link">
+            <h2>Learn More About Styling of HTML Elements</h2>
+            <p>Styling HTML elements is an important aspect of web development. You can learn more about CSS (Cascading Style Sheets) to apply styles to HTML elements. CSS allows you to control the appearance, layout, and design of your web pages. There are various online resources and tutorials available to help you master CSS.</p>
+        </section>
+    </section>
+
+    <!-- HTML iFrame -->
+    <section id="html-iframe">
+        <header>
+            <h1>HTML iFrame Examples</h1>
+        </header>
+    
+        <!-- Using an iFrame to Embed a Web Page Inside Another HTML Document -->
+        <section>
+            <h2>Using an iFrame to Embed a Web Page</h2>
+            <iframe src="https://www.example.com" width="800" height="600" frameborder="0"></iframe>
+        </section>
+    
+        <!-- Removing the Default frameborder from an iFrame -->
+        <section>
+            <h2>Removing the Default frameborder</h2>
+            <iframe src="https://www.example.com" width="800" height="600" frameborder="no"></iframe>
+        </section>
+    
+        <!-- Opening Linked Web Pages Inside an iFrame -->
+        <section>
+            <h2>Opening Linked Web Pages Inside an iFrame</h2>
+            <a href="https://www.example.com" target="myiframe">Open in iFrame</a>
+            <iframe src="" width="800" height="600" name="myiframe" frameborder="0"></iframe>
+        </section>
+    
+    </section>
+
+    <!-- HTML5 New Input Types -->
+    <section id="html5-new-input-types">
+        <header>
+            <h1>HTML5 Input Types Examples</h1>
+        </header>
+    
+        <!-- Creating HTML5 Color Input Type -->
+        <section>
+            <h2>Creating HTML5 Color Input Type</h2>
+            <label for="color">Choose a color:</label>
+            <input type="color" id="color" name="color">
+        </section>
+    
+        <!-- Creating HTML5 Date Input Type -->
+        <section>
+            <h2>Creating HTML5 Date Input Type</h2>
+            <label for="date">Select a date:</label>
+            <input type="date" id="date" name="date">
+        </section>
+    
+        <!-- Creating HTML5 Datetime Input Type -->
+        <section>
+            <h2>Creating HTML5 Datetime Input Type</h2>
+            <label for="datetime">Select a datetime:</label>
+            <input type="datetime" id="datetime" name="datetime">
+        </section>
+    
+        <!-- Creating HTML5 Datetime-Local Input Type -->
+        <section>
+            <h2>Creating HTML5 Datetime-Local Input Type</h2>
+            <label for="datetime-local">Select a local datetime:</label>
+            <input type="datetime-local" id="datetime-local" name="datetime-local">
+        </section>
+    
+        <!-- Creating HTML5 Email Input Type -->
+        <section>
+            <h2>Creating HTML5 Email Input Type</h2>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email">
+        </section>
+    
+        <!-- Creating HTML5 Month Input Type -->
+        <section>
+            <h2>Creating HTML5 Month Input Type</h2>
+            <label for="month">Select a month:</label>
+            <input type="month" id="month" name="month">
+        </section>
+    
+        <!-- Creating HTML5 Number Input Type -->
+        <section>
+            <h2>Creating HTML5 Number Input Type</h2>
+            <label for="quantity">Enter a quantity:</label>
+            <input type="number" id="quantity" name="quantity">
+        </section>
+    
+        <!-- Creating HTML5 Range Input Type -->
+        <section>
+            <h2>Creating HTML5 Range Input Type</h2>
+            <label for="range">Choose a value:</label>
+            <input type="range" id="range" name="range" min="0" max="100" step="5">
+        </section>
+    
+        <!-- Creating HTML5 Search Input Type -->
+        <section>
+            <h2>Creating HTML5 Search Input Type</h2>
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search">
+        </section>
+    
+        <!-- Creating HTML5 Tel Input Type -->
+        <section>
+            <h2>Creating HTML5 Tel Input Type</h2>
+            <label for="tel">Enter your phone number:</label>
+            <input type="tel" id="tel" name="tel">
+        </section>
+    
+        <!-- Creating HTML5 Time Input Type -->
+        <section>
+            <h2>Creating HTML5 Time Input Type</h2>
+            <label for="time">Select a time:</label>
+            <input type="time" id="time" name="time">
+        </section>
+    
+        <!-- Creating HTML5 URL Input Type -->
+        <section>
+            <h2>Creating HTML5 URL Input Type</h2>
+            <label for="url">Enter a URL:</label>
+            <input type="url" id="url" name="url">
+        </section>
+    
+        <!-- Creating HTML5 Week Input Type -->
+        <section>
+            <h2>Creating HTML5 Week Input Type</h2>
+            <label for="week">Select a week:</label>
+            <input type="week" id="week" name="week">
+        </section>
+    </section>
+
+    <!-- HTML5 Audio -->
+    <section id="html5-audio">
+        <header>
+            <h1>HTML5 Audio Examples</h1>
+        </header>
+    
+        <!-- Embedding Audio in HTML Documents -->
+        <section>
+            <h2>Embedding Audio in HTML Documents</h2>
+            <audio controls>
+                <source src="audio/sample.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    
+        <!-- Defining Alternative Sources for Audio Element -->
+        <section>
+            <h2>Defining Alternative Sources for Audio Element</h2>
+            <audio controls>
+                <source src="audio/sample.ogg" type="audio/ogg">
+                <source src="audio/sample.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    
+        <!-- Linking the Audio Files -->
+        <section>
+            <h2>Linking the Audio Files</h2>
+            <a href="audio/sample.mp3" download>Download Audio File</a>
+        </section>
+    
+        <!-- Inserting Audio in HTML Documents Using the Object Element -->
+        <section>
+            <h2>Inserting Audio Using the Object Element</h2>
+            <object data="audio/sample.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </object>
+        </section>
+    
+        <!-- Inserting Audio in HTML Documents Using the Embed Element -->
+        <section>
+            <h2>Inserting Audio Using the Embed Element</h2>
+            <embed src="audio/sample.mp3" type="audio/mpeg">
+        </section>
+    </section>
+
+    <!-- HTML5 Video -->
+    <section id="html5-video">
+        <header>
+            <h1>HTML5 Video Examples</h1>
+        </header>
+    
+        <!-- Embedding Video in HTML Documents -->
+        <section>
+            <h2>Embedding Video in HTML Documents</h2>
+            <video controls width="320" height="240">
+                <source src="video/sample.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+    
+        <!-- Defining Alternative Sources for Video Element -->
+        <section>
+            <h2>Defining Alternative Sources for Video Element</h2>
+            <video controls width="320" height="240">
+                <source src="video/sample.mp4" type="video/mp4">
+                <source src="video/sample.webm" type="video/webm">
+                Your browser does not support the video element.
+            </video>
+        </section>
+    
+        <!-- Inserting Video in HTML Documents Using the Object Element -->
+        <section>
+            <h2>Inserting Video Using the Object Element</h2>
+            <object data="video/sample.mp4" type="video/mp4" width="320" height="240">
+                Your browser does not support the video element.
+            </object>
+        </section>
+    
+        <!-- Inserting Video in HTML Documents Using the Embed Element -->
+        <section>
+            <h2>Inserting Video Using the Embed Element</h2>
+            <embed src="video/sample.mp4" type="video/mp4" width="320" height="240">
+        </section>
+    
+        <!-- Embedding a YouTube Video in HTML Documents -->
+        <section>
+            <h2>Embedding a YouTube Video</h2>
+            <iframe width="1182" height="665" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Astley - Never Gonna Give You Up (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Website</p>
+    </footer>
+</body>
+</html>
